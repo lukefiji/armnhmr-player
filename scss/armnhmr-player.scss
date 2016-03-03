@@ -1,0 +1,17 @@
+%button {
+  display: block;
+}
+
+.player {
+  &__button {
+    &--play {
+      @extend %button;
+    }
+    &--pause {
+      @extend %button;
+    }
+    &--stop {
+      @extend %button;
+    }
+  }
+}
